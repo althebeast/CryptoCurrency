@@ -12,7 +12,6 @@ struct HomeView: View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false) {
                 
-                
                 // top movers view
                 
                 // all coins view
