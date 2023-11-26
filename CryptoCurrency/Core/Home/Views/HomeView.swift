@@ -15,7 +15,12 @@ struct HomeView: View {
                 // top movers view
                 TopMoversView()
                 
+                Divider()
+                    .overlay(.black)
+                
                 // all coins view
+                AllCoinsView()
+                
             }
             .navigationTitle("Live Prices")
         }
